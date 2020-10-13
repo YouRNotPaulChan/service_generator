@@ -7,7 +7,7 @@ require "service_generator/version"
 Gem::Specification.new do |spec|
   spec.name        = "service_generator"
   spec.version     = ServiceGenerator::VERSION
-  spec.authors     = ["陈越"]
+  spec.authors     = ["PC20"]
   spec.email       = [""]
   spec.homepage    = ""
   spec.summary     = "Service Generator."
