@@ -40,7 +40,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 
-gem 'service_generator', path: 'https://github.com/YouRNotPaulChan/service_generator'
+gem 'service_generator', github: 'YouRNotPaulChan/service_generator'
 
 ```
 
