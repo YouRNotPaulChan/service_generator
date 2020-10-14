@@ -1,17 +1,5 @@
-<% if module_name.present? %>module <%= module_name.camelize %><% end %>
-class TestService < ApplicationService
-  def initialize(attributes)
-    @attributes = attributes
-  end
-
-  def call
-    # some code
-  end
-
-<% if methods.present? %>  private<% end %>
-<% methods.each do |method| %>
-  def <%= method %>
-  end
-<% end %>
-end
-<% if module_name.present? %>end<% end %>
+<%- if module_name.present? %>module <%= module_name.camelize %>
+<% end -%>
+<%= class_body -%>
+<%- if module_name.present? %>end
+<% end -%>
