@@ -29,7 +29,7 @@ end
 ## Usage
 
 ```bash
-$ rails generate service method1 method2 method3 --module test_module
+$ rails generate service demo_service method1 method2 method3 --module test_module
 ```
 
 *The `--module` option allows you to add a module to the outer layer of your class, and `method1`、`method2`、`method3`... allows you to add some **private** methods in your service class.*
